@@ -381,6 +381,18 @@ img {
 }
 
 /* ===================================
+   Teaching Section
+   =================================== */
+
+.teaching-section {
+    background: white;
+}
+
+.highlight-card {
+    border-left: 4px solid #34c759 !important;
+}
+
+/* ===================================
    Research Section
    =================================== */
 

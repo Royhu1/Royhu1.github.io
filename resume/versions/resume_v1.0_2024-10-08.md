@@ -68,18 +68,6 @@ Bachelor of Engineering in Civil Engineering
 
 ---
 
-## Teaching Experience
-
-### Oct 2024 - Present
-**Department of Engineering, University of Cambridge, UK** | *Lab Demonstrator (3C8)*
-
-- Providing hands-on technical guidance to undergraduate students in engineering laboratory sessions.
-- Supporting students in experimental design, data collection, and analysis.
-- Facilitating understanding of core engineering principles through practical demonstrations.
-- Assisting with assessment and feedback on laboratory work and reports.
-
----
-
 ## Work Experience
 
 ### Jun 2023 - Aug 2023
