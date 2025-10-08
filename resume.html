@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Jianghan Hu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Additional styles for resume page */
+        .resume-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: var(--spacing-3xl) var(--spacing-md);
+            padding-top: calc(48px + var(--spacing-3xl));
+        }
+
+        .resume-header {
+            text-align: center;
+            margin-bottom: var(--spacing-2xl);
+            padding-bottom: var(--spacing-xl);
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        .resume-name {
+            font-size: 48px;
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .resume-contact {
+            font-size: 16px;
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+        }
+
+        .resume-contact a {
+            color: var(--color-primary);
+        }
+
+        .resume-section {
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .resume-section-title {
+            font-size: 24px;
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+            padding-bottom: var(--spacing-xs);
+            border-bottom: 2px solid var(--color-primary);
+        }
+
+        .resume-item {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .resume-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: var(--spacing-xs);
+            flex-wrap: wrap;
+        }
+
+        .resume-item-title {
+            font-size: 18px;
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-text-primary);
+        }
+
+        .resume-item-date {
+            font-size: 14px;
+            color: var(--color-text-secondary);
+            font-weight: var(--font-weight-medium);
+        }
+
+        .resume-item-subtitle {
+            font-size: 16px;
+            color: var(--color-text-secondary);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .resume-item-role {
+            font-size: 15px;
+            color: var(--color-primary);
+            font-style: italic;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .resume-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .resume-list li {
+            padding-left: var(--spacing-md);
+            margin-bottom: var(--spacing-xs);
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .resume-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--color-primary);
+            font-weight: bold;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: var(--spacing-lg);
+            color: var(--color-primary);
+            font-size: 14px;
+            font-weight: var(--font-weight-medium);
+            transition: opacity var(--transition-fast);
+        }
+
+        .back-button:hover {
+            opacity: 0.7;
+        }
+
+        .back-button::before {
+            content: '← ';
+        }
+
+        .publication-item {
+            margin-bottom: var(--spacing-md);
+            line-height: 1.6;
+        }
+
+        .award-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .award-list li {
+            padding-left: var(--spacing-lg);
+            margin-bottom: var(--spacing-sm);
+            position: relative;
+        }
+
+        .award-list li::before {
+            content: '🏆';
+            position: absolute;
+            left: 0;
+        }
+
+        @media print {
+            .navbar,
+            .back-button {
+                display: none;
+            }
+
+            .resume-page {
+                padding-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">JH</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#teaching" class="nav-link">Teaching</a></li>
+                <li><a href="index.html#research" class="nav-link">Research</a></li>
+                <li><a href="index.html#publications" class="nav-link">Publications</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="resume-page">
+        <a href="index.html" class="back-button">Back to Home</a>
+
+        <!-- Header -->
+        <div class="resume-header">
+            <h1 class="resume-name">Jianghan Hu</h1>
+            <div class="resume-contact">
+                Hughes Hall, Cambridge CB1 2EW, UK<br>
+                <a href="tel:+447436926450">+44 07436926450</a> |
+                <a href="mailto:jh2570@cam.ac.uk">jh2570@cam.ac.uk</a>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Education Background</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">PhD (Probationary) in Engineering</div>
+                    <div class="resume-item-date">October 2024 - Present</div>
+                </div>
+                <div class="resume-item-subtitle">Department of Engineering, University of Cambridge, UK</div>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Master of Engineering in Civil and Hydraulic Engineering</div>
+                    <div class="resume-item-date">Sep 2021 - Jun 2024</div>
+                </div>
+                <div class="resume-item-subtitle">Zhejiang University-University of Illinois Urbana-Champaign Institute (ZJUI), China</div>
+                <div class="resume-item-role">Thesis: Research on Vehicle Trajectory Reconstruction for Road Traffic Digital Twin</div>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Bachelor of Science in Civil Engineering</div>
+                    <div class="resume-item-date">Sep 2017 - Jun 2021</div>
+                </div>
+                <div class="resume-item-subtitle">University of Illinois Urbana-Champaign (UIUC), USA</div>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Bachelor of Engineering in Civil Engineering</div>
+                    <div class="resume-item-date">Sep 2017 - Jun 2021</div>
+                </div>
+                <div class="resume-item-subtitle">Zhejiang University-University of Illinois Urbana-Champaign Institute (ZJUI), China</div>
+            </div>
+        </section>
+
+        <!-- Research Experience -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Research Experience</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Vehicle Trajectory Reconstruction Using Deep Learning Algorithm</div>
+                    <div class="resume-item-date">Sep 2022 - Jun 2024</div>
+                </div>
+                <div class="resume-item-role">Researcher Co-Investigator</div>
+                <ul class="resume-list">
+                    <li>Developing a generative model for reconstructing vehicle trajectories in mixed traffic flow (incorporating conventional manned vehicles and autonomous vehicles), utilizing convolutional neural network (CNN)</li>
+                    <li>Generating missing vehicle trajectories using a generative adversarial network (GAN) architecture</li>
+                    <li>Designing a vehicle trajectory reconstruction algorithm for complex urban road scenarios, considering vehicle temporal features, vehicle interaction patterns, and map information</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Test Platform for Autonomous Driving in Smart Cities</div>
+                    <div class="resume-item-date">Jun 2021 - Jun 2023</div>
+                </div>
+                <div class="resume-item-role">Researcher Co-Investigator</div>
+                <ul class="resume-list">
+                    <li>Developing a co-simulation platform that integrates TASS-PreScan and PTV-VISSIM into a driving simulator</li>
+                    <li>Implementing and testing hardware-software-integration on Apollo D-kit platform for autonomous vehicles</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Digital Twins for Bridge Condition Monitoring and Predictive Maintenance</div>
+                    <div class="resume-item-date">Sep 2021 - Mar 2022</div>
+                </div>
+                <div class="resume-item-role">Student Researcher</div>
+                <ul class="resume-list">
+                    <li>Recording videos of traffic on a bridge using built-in cameras on drones</li>
+                    <li>Developing and implementing vehicle detection and trajectory tracking algorithms</li>
+                    <li>Developing a bridge load estimation algorithm through fusion of bridge vibration data and vehicle trajectory</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Industrial Project Experience -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Industrial Project Experience</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Multi-model Traffic Simulation for Airport Digital Twin, with Hohhot Airport</div>
+                    <div class="resume-item-date">Oct 2022 - Dec 2023</div>
+                </div>
+                <div class="resume-item-role">Researcher Co-Investigator</div>
+                <ul class="resume-list">
+                    <li>Developing static and dynamic multi-model traffic simulation models for Hohhot Airport by PTV-VISSIM</li>
+                    <li>Designing metric system for evaluation of airport services</li>
+                    <li>Completing a technical report and demonstrating simulation models</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">ZJUI Campus Autonomous Shuttle Bus, with Dongfeng Motor Corporation</div>
+                    <div class="resume-item-date">Feb 2023 - Dec 2023</div>
+                </div>
+                <div class="resume-item-role">Student Researcher</div>
+                <ul class="resume-list">
+                    <li>Measuring campus road geometry and building digital maps</li>
+                    <li>Developing virtual and real-world testing environment for the autonomous shuttle bus</li>
+                    <li>Supporting daily operations and maintenance of the autonomous shuttle bus</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Teaching Experience -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Teaching Experience</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Lab Demonstrator (3C8)</div>
+                    <div class="resume-item-date">Oct 2024 - Present</div>
+                </div>
+                <div class="resume-item-subtitle">Department of Engineering, University of Cambridge, UK</div>
+                <ul class="resume-list">
+                    <li>Providing hands-on technical guidance to undergraduate students in engineering laboratory sessions</li>
+                    <li>Supporting students in experimental design, data collection, and analysis</li>
+                    <li>Facilitating understanding of core engineering principles through practical demonstrations</li>
+                    <li>Assisting with assessment and feedback on laboratory work and reports</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Work Experience</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Software Engineer Intern</div>
+                    <div class="resume-item-date">Jun 2023 - Aug 2023</div>
+                </div>
+                <div class="resume-item-subtitle">Zhejiang Supcon Information Industry Co., Ltd.</div>
+                <ul class="resume-list">
+                    <li>Optimising data visualisation for holographic representation of intelligent road systems</li>
+                    <li>Pre-processing raw vehicle trajectory data from road-side radars and developing algorithms for correcting vehicle trajectory measurement errors</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Skills</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-title">English Proficiency</div>
+                <ul class="resume-list">
+                    <li>TOEFL Score: 101 (Reading: 30, Listening: 25, Speaking: 22, Writing: 24), tested in July, 2024</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-title">Programming Capability</div>
+                <ul class="resume-list">
+                    <li>Proficient at Python, MATLAB, SQL</li>
+                    <li>Proficient at PyTorch. Professional experience in applying Deep Learning to transport engineering problems</li>
+                    <li>Good experience in data visualisation</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-title">Communication and Transferable Skills</div>
+                <ul class="resume-list">
+                    <li>Helping receive academic visits of researchers from other universities to campus; responsible of introducing lab equipment and demonstrating research tools</li>
+                    <li>Participating in research promotion video recordings; interviewed by China Daily and Zhejiang University official social media</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Publications -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Publications</h2>
+
+            <div class="publication-item">
+                <strong>Hu, J.</strong>, Lian, S., Hu, S., Demartino, C., Wang, G., Liu, X., Li, Y., Roncoli, C., & Lee, D. H. (2023). A CNN-based Generative Model for Vehicle Trajectory Reconstruction in Mixed Traffic Flow. In <em>Proceedings of the 8th International Conference on Models and Technologies for Intelligent Transportation Systems (MT-ITS)</em>. IEEE.
+            </div>
+
+            <div class="publication-item">
+                Zhou, C., Xiao, D., <strong>Hu, J.</strong>, Yang, Y., Li, B., Hu, S., Demartino, C., & Butala, M. (2022). An Example of Digital Twins for Bridge Monitoring and Maintenance: Preliminary Results. In <em>Proceedings of the 1st Conference of the European Association on Quality Control of Bridges and Structures (EUROSTRUCT 2021)</em>. Springer International Publishing.
+            </div>
+
+            <div class="publication-item">
+                Hu, S., Lian, S., Zhou, B., <strong>Hu, J.</strong>, Wang, G.; Escribano, J., Na, X., & Jin, S. (2024). Multimodal Trajectory Prediction for Autonomous Vehicles Using Advanced Diffusion Model Techniques. Submitted to <em>IEEE Transactions on Intelligent Vehicles</em>.
+            </div>
+
+            <div class="publication-item">
+                Hu, S., Zhou, B., <strong>Hu, J.</strong>, Roncoli, C., & Escribano, J. (2024). A Methodological Framework for Automated Extraction and Analysis of Traffic Parameters from High-Resolution UAV Video Data. Submitted to <em>IEEE Intelligent Transportation Systems Magazine</em> (Under Review).
+            </div>
+        </section>
+
+        <!-- Patents -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Patents</h2>
+
+            <div class="publication-item">
+                Hu, S., Zhou, Q., <strong>Hu, J.</strong>, Zhou, B., & Lee, D.H. (2023). Mixed-traffic-flow-oriented Vehicle Eco-driving Control Method and Electronic Device, Chinese Invention Patent, CN116524722A, authorized.
+            </div>
+
+            <div class="publication-item">
+                Lee, D.H., Hu, S., Chen, X., <strong>Hu, J.</strong>, Yang, Y., & Zhou, Q. (2023). A Simulation-based Method for Collaborative Organisation, Evaluation, and Optimization of Multi-Modal Traffic Systems in Airport Hubs, Chinese Invention Patent, accepted.
+            </div>
+        </section>
+
+        <!-- Awards -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Prizes and Awards</h2>
+
+            <ul class="award-list">
+                <li>Award for Outstanding Graduating Student, awarded by Zhejiang University, 2022 and 2023</li>
+                <li>First-class Academic Excellence Scholarship, awarded by Zhejiang University, 2022 and 2023</li>
+                <li>Graduation with Honors, awarded by University of Illinois at Urbana-Champaign, 2021</li>
+                <li>Artistic and Athletic Achievement Award, awarded by Zhejiang University, 2019</li>
+            </ul>
+        </section>
+
+        <!-- Activities -->
+        <section class="resume-section">
+            <h2 class="resume-section-title">Activities</h2>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">8th International Conference on Models and Technologies for Intelligent Transportation Systems</div>
+                    <div class="resume-item-date">June 14-16, 2023</div>
+                </div>
+                <div class="resume-item-subtitle">Nice, France</div>
+                <ul class="resume-list">
+                    <li>Giving an oral presentation of my research paper</li>
+                    <li>Volunteering for organisation of a workshop at the conference</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">President of Student's Basketball Association & Captain of the ZJU-INTL team</div>
+                    <div class="resume-item-date">September 2017 - September 2021</div>
+                </div>
+                <ul class="resume-list">
+                    <li>Participating in Zhejiang University SanHao Cup Basketball Tournament</li>
+                    <li>Organising several student events and training competitions</li>
+                </ul>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-item-header">
+                    <div class="resume-item-title">Summer Volunteers in Bali, Indonesia</div>
+                    <div class="resume-item-date">June 2018 - July 2018</div>
+                </div>
+                <ul class="resume-list">
+                    <li>Participating in one-week volunteer teaching programme at Ubud High School in Bali, Indonesia</li>
+                    <li>Participating in turtle conservation and garbage recycling campaigns in local communities</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
