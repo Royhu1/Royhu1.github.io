@@ -9,7 +9,7 @@
 
 **October 2024 - Present**
 **Department of Engineering, University of Cambridge, UK**
-PhD (Probationary) in Engineering
+PhD Candidate in Engineering (Probationary Stage)
 
 **Sep 2021 - Jun 2024**
 **Zhejiang University-University of Illinois Urbana-Champaign Institute (ZJUI), China**
@@ -77,6 +77,14 @@ Bachelor of Engineering in Civil Engineering
 - Supporting students in experimental design, data collection, and analysis.
 - Facilitating understanding of core engineering principles through practical demonstrations.
 - Assisting with assessment and feedback on laboratory work and reports.
+
+### Oct 2024 - Present
+**Department of Engineering, University of Cambridge, UK** | *Lab Demonstrator (1A Lab 8: Angular Momentum)*
+
+- Guiding first-year students through angular momentum experiments and associated instrumentation.
+- Reinforcing core dynamics concepts by linking theory with hands-on demonstrations and discussions.
+- Monitoring laboratory safety compliance and ensuring equipment is configured for each cohort.
+- Providing targeted feedback on measurements, data interpretation, and reflective lab reports.
 
 ---
 
