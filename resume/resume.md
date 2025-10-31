@@ -148,6 +148,12 @@ Bachelor of Engineering in Civil Engineering
 
 ## Activities
 
+### July 14-15, 2025
+**2nd Electric Road System and Sustainable Smart Logistics Conference**
+
+- Delivering a conference workshop presentation on electric road system-enabled smart logistics, based on the `2050714Workshop1.1` materials.
+- Discussing opportunities for integrating electric road technologies into sustainable freight corridors.
+
 ### June 14-16, 2023
 **8th International Conference on Models and Technologies for Intelligent Transportation Systems, Nice, France**
 
