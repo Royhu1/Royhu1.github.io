@@ -35,6 +35,13 @@ Bachelor of Engineering in Civil Engineering
 - Generating missing vehicle trajectories using a generative adversarial network (GAN) architecture.
 - Designing a vehicle trajectory reconstruction algorithm for complex urban road scenarios, considering vehicle temporal features, vehicle interaction patterns, and map information.
 
+### Oct 2024 - Present
+**Energy Consumption Modelling and Duty Cycle Prediction for Heavy Goods Vehicles** | *PhD Researcher*
+
+- Building a physics-based energy model for heavy goods vehicles that integrates longitudinal dynamics with calibrated powertrain efficiency.
+- Calibrating resistance parameters and validating the model against Smart Routing Framework field datasets to achieve sub-6% mean absolute percentage error.
+- Designing rule-based duty cycle predictors that transform routing API outputs into speed and gradient profiles for fuel and energy analysis.
+
 ### Jun 2021 - Jun 2023
 **Test Platform for Autonomous Driving in Smart Cities** | *Researcher Co-Investigator*
 
