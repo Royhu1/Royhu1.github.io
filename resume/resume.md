@@ -9,7 +9,7 @@
 
 **October 2024 - Present**
 **Department of Engineering, University of Cambridge, UK**
-PhD Candidate in Engineering (Probationary Stage)
+PhD Candidate in Engineering
 
 **Sep 2021 - Jun 2024**
 **Zhejiang University-University of Illinois Urbana-Champaign Institute (ZJUI), China**
@@ -158,7 +158,7 @@ Bachelor of Engineering in Civil Engineering
 ### July 14-15, 2025
 **2nd Electric Road System and Sustainable Smart Logistics Conference**
 
-- Delivering a conference workshop presentation on electric road system-enabled smart logistics, based on the `2050714Workshop1.1` materials.
+- Delivering a conference workshop presentation on electric road system-enabled smart logistics, focusing on sustainable freight corridors and deployment strategies for decarbonised heavy transport.
 - Discussing opportunities for integrating electric road technologies into sustainable freight corridors.
 
 ### June 14-16, 2023
