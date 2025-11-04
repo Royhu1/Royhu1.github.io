@@ -158,8 +158,8 @@ Bachelor of Engineering in Civil Engineering
 ### July 14-15, 2025
 **2nd Electric Road System and Sustainable Smart Logistics Conference**
 
-- Delivering a conference workshop presentation on electric road system-enabled smart logistics, focusing on sustainable freight corridors and deployment strategies for decarbonised heavy transport.
-- Discussing opportunities for integrating electric road technologies into sustainable freight corridors.
+- Delivered a workshop presentation on "Heavy Goods Vehicle Fuel Consumption Modelling & Driving Cycle Prediction", discussing physics-based energy modelling approaches and duty cycle prediction methods for freight transport electrification.
+- Shared research insights on integrating energy consumption models with electric road system infrastructure for optimised logistics planning.
 
 ### June 14-16, 2023
 **8th International Conference on Models and Technologies for Intelligent Transportation Systems, Nice, France**
